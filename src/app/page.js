@@ -1,5 +1,6 @@
 import CallToAction from "@/comps/CallToAction";
 import Features from "@/comps/Features";
+import Footer from "@/comps/Footer";
 import Navbar from "@/comps/Navbar";
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <>
       {/* <Navbar /> */}
       {/* <Features /> */}
-      <CallToAction/>
+      {/* <CallToAction/> */}
+      <Footer/>
     </>
   );
 }
