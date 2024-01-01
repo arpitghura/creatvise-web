@@ -1,4 +1,7 @@
 .bg-svg {
-  background: url(../../public/bg.svg) no-repeat;
-  background-size: contain;
+  background: url(../../public/bg.svg) no-repeat center center/contain;
+}
+
+.bg-hero{
+    background: url(../../public/hero-bg.svg) no-repeat center center/cover;
 }
