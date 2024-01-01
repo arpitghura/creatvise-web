@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col w-full items-center bg-hero h-screen p-10 text-white">
+    <div className="flex flex-col w-full items-center bg-hero h-screen p-10 text-white" id="hero">
       <div className="mt-16 lg:w-[70%] w-[90%] text-center">
         <h2 className="font-bold  md:text-6xl sm:text-4xl text-2xl">
           Empowering Curators, Enriching Perspectives

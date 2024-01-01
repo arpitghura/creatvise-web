@@ -8,21 +8,22 @@ const Newsletter = () => {
 
   return (
     <div className="relative md:w-[400px] w-full max-w-full bg-gray-50 rounded-full">
-      <input
-        type="email"
-        id="email"
-        placeholder="email"
-        className="p-4 text-sm text-gray-900 bg-transparent outline-none"
-        required
-      />
-      <button
-        type="submit"
-        className="text-white absolute top-0.5 right-0 border-2 border-gray-50 bg-primary outline-none 
+      <form action={handleSubmission}>
+        <input
+          type="email"
+          id="email"
+          placeholder="email"
+          className="p-4 text-sm text-gray-900 bg-transparent outline-none"
+        />
+        <button
+          type="submit"
+          className="text-white absolute top-0.5 right-0 border-2 border-gray-50 bg-primary outline-none 
               rounded-full text-sm px-4 py-2 h-[95%]"
-        onClick={handleSubmission}
-      >
-        notify me
-      </button>
+          onClick={handleSubmission}
+        >
+          notify me
+        </button>
+      </form>
     </div>
   );
 };

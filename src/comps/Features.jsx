@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Features = () => {
   return (
-    <div className="flex flex-row justify-between items-center h-screen">
+    <div className="flex flex-row justify-between items-center h-screen" id="creatvise-zone">
       <div className="w-[50%] p-10">
         <h2 className="font-semibold text-primary text-3xl">
           Unleash your creativity in your curative zone !
