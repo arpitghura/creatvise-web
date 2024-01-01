@@ -70,7 +70,7 @@ const Navbar = () => {
         </div>
         <div className="flex h-full items-center md:hidden">
           <button onClick={handleMenuClick}>
-            <AiOutlineMenu size={50} className="text-primary" />
+            <AiOutlineMenu size={30} className="text-primary" />
           </button>
         </div>
       </div>

@@ -1,9 +1,40 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import CreativiseZone from "../../public/creativise-zone.png";
+import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Features = () => {
   return (
-    <div>Features</div>
-  )
-}
+    <div className="flex flex-row justify-between items-center">
+      <div className="w-[50%] p-10">
+        <h2 className="font-semibold text-primary text-3xl">
+          Unleash your creativity in your curative zone !
+        </h2>
+        <p className="text-primary mt-4 font-light">
+          Whether you're a creative enthusiast or a professional designer,
+          Creativise zone is the first browser based design tool that allows to
+          create stunning graphics with more user friendly experience. It has
+          the power of stitching your .psd (Photoshop) and .ai (Illustrator)
+          files with intuitive features to meet all your design needs. This tool
+          prioritizes user-friendliness and aims to provide a seamless and
+          enjoyable design experience like never before.
+        </p>
+        <Link href="#">
+          <p className="py-3 text-primary font-medium">
+            Explore Now
+            <FaArrowRightLong className="inline-block ml-2 text-primary" />
+          </p>
+        </Link>
+      </div>
+      <div className="w-[50%]">
+        <Image
+          src={CreativiseZone}
+          alt="Creativise Zone"
+        />
+      </div>
+    </div>
+  );
+};
 
-export default Features
+export default Features;
