@@ -60,6 +60,7 @@ const Navbar = () => {
               height="9"
               viewBox="0 0 9 9"
               fill="none"
+              opacity={0.8}
             >
               <circle cx="4.5" cy="4.5" r="4.5" fill="#5552B9" />
             </svg>

@@ -8,7 +8,6 @@ import {
   FaXTwitter,
   FaPinterestP,
 } from "react-icons/fa6";
-
 import Newsletter from "./Newsletter";
 
 const Footer = () => {
@@ -29,17 +28,17 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between mt-10 px-3 items-center">
-        <div className="md:w-[25%] mt-8 w-full md:mt-auto">
+        <div className="md:w-[30%] w-full mt-8 md:mt-auto">
           <Newsletter />
         </div>
-        <div className="flex flex-row md:justify-evenly justify-start mt-8 w-full md:mt-auto">
+        <div className="flex flex-row md:justify-evenly justify-start mt-8 md:mt-auto">
           <FaInstagram size={20} className="mr-3" />
           <FaFacebookF size={20} className="mr-3" />
           <FaLinkedinIn size={20} className="mr-3" />
           <FaPinterestP size={20} className="mr-3" />
           <FaXTwitter size={20} className="mr-3" />
         </div>
-        <div className="mt-8 md:mt-auto w-full">
+        <div className="mt-8 md:mt-auto">
           <p className="text-sm">&copy; 2023 Creatvise, All rights reserved.</p>
         </div>
       </div>

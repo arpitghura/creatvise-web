@@ -3,8 +3,8 @@ import "./styles.css";
 
 const CallToAction = () => {
   return (
-    <div className="flex flex-col w-full items-center bg-svg h-screen p-10">
-      <div className="mt-10 w-[50%] text-center">
+    <div className="flex flex-col bg-svg w-full items-center h-screen p-10">
+      <div className="mt-10 md:w-[50%] sm:w-[80%] w-[90%] text-center">
         <h2 className="font-bold text-primary text-5xl">
           Get the freedom <br /> to be more creative!
         </h2>
