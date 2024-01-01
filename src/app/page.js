@@ -6,9 +6,9 @@ import Navbar from "@/comps/Navbar";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Features /> */}
-      {/* <CallToAction/> */}
+      <Navbar />
+      <Features />
+      <CallToAction/>
       <Footer/>
     </>
   );

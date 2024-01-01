@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed h-20 w-full shadow-md bg-white">
+    <nav className=" h-20 w-full shadow-md bg-white">
       <div
         className={`flex h-full items-center justify-between px-4 ${
           isMenuOpen ? "delay-200 blur-sm" : "blur-0"

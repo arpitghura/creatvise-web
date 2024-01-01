@@ -28,10 +28,7 @@ const Features = () => {
         </Link>
       </div>
       <div className="w-[50%]">
-        <Image
-          src={CreativiseZone}
-          alt="Creativise Zone"
-        />
+        <Image src={CreativiseZone} alt="Creativise Zone" />
       </div>
     </div>
   );

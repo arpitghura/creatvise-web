@@ -1,9 +1,5 @@
 import React from "react";
-import './CallToAction.css'
-// import Image from "next/image";
-// import ArrowedTriangle from"../../public/triangle-with-arrow.svg";
-// import ArrowLine from "../../public/pointed-line.svg";
-// import Square from "../../public/square.svg";
+import "./styles.css";
 
 const CallToAction = () => {
   return (
@@ -22,19 +18,6 @@ const CallToAction = () => {
       <button className="bg-primary rounded-3xl px-5 py-2 mt-10 cursor-pointer text-white">
         Get Started
       </button>
-
-      {/* <div>
-        <Image src={ArrowedTriangle} />
-      </div>
-      <div>
-        <Image src={Square} />
-      </div>
-      <div>
-        <Image src={ArrowLine} />
-      </div>
-      <div>
-        <Image src={Square} />
-      </div> */}
     </div>
   );
 };

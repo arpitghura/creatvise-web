@@ -1,0 +1,4 @@
+.bg-svg {
+  background: url(../../public/bg.svg) no-repeat;
+  background-size: contain;
+}
