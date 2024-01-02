@@ -15,7 +15,7 @@ const Features = () => {
           Unleash your creativity in your curative zone !
         </h2>
         <p className="text-primary mt-5 font-light lg:text-2xl md:text-xl text-lg">
-          Whether you're a creative enthusiast or a professional designer,
+          Whether you&apos;re a creative enthusiast or a professional designer,
           Creatvise zone is the first browser based design tool that allows to
           create stunning graphics with more user friendly experience. It has
           the power of stitching your .psd (Photoshop) and .ai (Illustrator)
