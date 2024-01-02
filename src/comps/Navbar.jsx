@@ -16,9 +16,7 @@ const Navbar = () => {
   return (
     <nav className=" h-20 w-full shadow-md bg-white">
       <div
-        className={`flex h-full items-center justify-between px-4 ${
-          isMenuOpen ? "delay-200 blur-sm" : "blur-0"
-        }`}
+        className={`flex h-full items-center justify-between px-4`}
       >
         <Link href="/">
           <Image
@@ -78,7 +76,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`bg-secondary rounded-e-xl z-50 ease-in duration-300 p-5 fixed h-screen w-[65%] top-0
+        className={`bg-secondary rounded-e-3xl z-50 ease-in duration-200 p-10 fixed h-screen w-[65%] top-0
           ${isMenuOpen ? "left-0" : "left-[-100%]"}`}
       >
         <div className="flex justify-end">

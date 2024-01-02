@@ -7,15 +7,15 @@ const Newsletter = () => {
   };
 
   return (
-    <div class="flex flex-col items-start justify-center">
+    <div className="flex flex-col items-start justify-center">
       <form action={handleSubmission}>
-      <div class="relative w-full">
+      <div className="relative w-full">
         <input
           type="email"
           placeholder="email"
-          class="rounded-full px-4 py-2 text-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-purple-200 focus:outline-none"
+          className="rounded-full px-4 py-2 text-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-purple-200 focus:outline-none"
         />
-        <button class="absolute right-0.5 top-0.5 px-3 py-2 text-sm font-semibold text-white bg-primary rounded-full">
+        <button className="absolute right-0.5 top-0.5 px-3 py-2 text-sm font-semibold text-white bg-primary rounded-full">
           Notify Me
         </button>
       </div>
