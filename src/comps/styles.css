@@ -1,5 +1,5 @@
-.bg-svg {
-  background: url(../../public/bg.svg) no-repeat center center/contain;
+.bg-cta {
+  background: url(../../public/cta-bg.svg) no-repeat center center/contain;
 }
 
 .bg-hero {

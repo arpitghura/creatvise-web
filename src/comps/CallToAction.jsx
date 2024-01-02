@@ -4,7 +4,7 @@ import "./styles.css";
 const CallToAction = () => {
   return (
     <div
-      className="flex flex-col bg-svg w-full items-center h-full p-10"
+      className="flex flex-col bg-cta w-full items-center h-full p-10"
       id="cta"
     >
       <div className="mt-10 md:w-[50%] sm:w-[80%] w-[90%] text-center">
