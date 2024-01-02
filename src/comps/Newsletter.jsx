@@ -7,22 +7,18 @@ const Newsletter = () => {
   };
 
   return (
-    <div className="relative md:w-[400px] w-full max-w-full bg-gray-50 rounded-full">
+    <div class="flex flex-col items-start justify-center">
       <form action={handleSubmission}>
+      <div class="relative w-full">
         <input
           type="email"
-          id="email"
           placeholder="email"
-          className="p-4 text-sm text-gray-900 bg-transparent outline-none"
+          class="rounded-full px-4 py-2 text-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-purple-200 focus:outline-none"
         />
-        <button
-          type="submit"
-          className="text-white absolute top-0.5 right-0 border-2 border-gray-50 bg-primary outline-none 
-              rounded-full text-sm px-4 py-2 h-[95%]"
-          onClick={handleSubmission}
-        >
-          notify me
+        <button class="absolute right-0.5 top-0.5 px-3 py-2 text-sm font-semibold text-white bg-primary rounded-full">
+          Notify Me
         </button>
+      </div>
       </form>
     </div>
   );
