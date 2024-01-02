@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CreatviseZone from "../../public/Creatvise-zone.png";
+import CreatviseZone from "../../public/creatvise-zone.png";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
