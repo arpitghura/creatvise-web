@@ -41,7 +41,7 @@ const Footer = () => {
             <FaLinkedinIn size={20} className="mr-3" />
           </Link>
           <Link href="#">
-            <FaPinterestP size={20} className="mr-3" />
+            <FaPinterestP size={20} className="mr-3"/>
           </Link>
           <Link href="#">
             <FaXTwitter size={20} className="mr-3" />

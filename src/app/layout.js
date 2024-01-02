@@ -6,6 +6,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
   title: "Creatvise: Empowering Curators, Enriching Perspectives",
   description: "Empowering Curators, Enriching Perspectives",
+  theme: "#000000",
 };
 
 export default function RootLayout({ children }) {

@@ -30,23 +30,23 @@ const Navbar = () => {
             <p className="px-4 text-primary">Home</p>
           </Link>
           <Link href="#">
-            <p className="px-4 text-secondary hover:text-primary transition ease-in duration-200">
+            <p className="px-4 text-gray-400 hover:text-primary transition ease-in duration-200">
               Products
             </p>
           </Link>
           <Link href="#">
-            <p className="px-4 text-secondary hover:text-primary transition ease-in duration-200">
+            <p className="px-4 text-gray-400 hover:text-primary transition ease-in duration-200">
               About Us
             </p>
           </Link>
           <Link href="#">
-            <p className="px-4 text-secondary hover:text-primary transition ease-in duration-200">
+            <p className="px-4 text-gray-400 hover:text-primary transition ease-in duration-200">
               Blogs
             </p>
           </Link>
         </div>
         <div className="hidden md:flex flex-row items-center h-full">
-          <button className="py-3 px-6 rounded-md bg-secondary border hover:bg-primary hover:text-secondary ease-in duration-300">
+          <button title="login" aria-label="Login" className="py-3 px-6 rounded-md bg-secondary border hover:bg-primary hover:text-secondary ease-in duration-300">
             Login
           </button>
           <div className="px-1">
@@ -61,12 +61,12 @@ const Navbar = () => {
               <circle cx="4.5" cy="4.5" r="4.5" fill="#5552B9" />
             </svg>
           </div>
-          <button className="py-3 px-6 rounded-md border border-primary hover:text-primary hover:bg-secondary ease-in duration-300">
+          <button title="signup" aria-label="Signup" className="py-3 px-6 rounded-md border border-primary hover:text-primary hover:bg-secondary ease-in duration-300">
             Signup
           </button>
         </div>
         <div className="flex h-full items-center md:hidden">
-          <button onClick={handleMenuClick}>
+          <button onClick={handleMenuClick} title="menu" aria-label="Menu">
             <AiOutlineMenu size={30} className="text-primary" />
           </button>
         </div>

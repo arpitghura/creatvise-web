@@ -18,7 +18,7 @@ const Hero = () => {
           curation and helps in turning a perspective into reality.
         </p>
       </div>
-      <button className="bg-primary rounded-full px-5 py-2 mt-10 cursor-pointer text-white xl:px-10 xl:py-5 xl:mt-20 md:text-xl select-none">
+      <button title="get-started" aria-label="Get Started" className="bg-primary rounded-full px-5 py-2 mt-10 cursor-pointer text-white xl:px-10 xl:py-5 xl:mt-20 md:text-xl select-none">
         Get Started
       </button>
     </div>
