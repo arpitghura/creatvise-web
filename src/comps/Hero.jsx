@@ -8,10 +8,10 @@ const Hero = () => {
       id="hero"
     >
       <div className="pt-16 xl:w-[75%] lg:w-[85%] w-[90%] text-center">
-        <h2 className="font-bold lg:text-7xl md:text-6xl text-4xl">
+        <h2 className="font-bold lg:text-6xl md:text-5xl text-4xl">
           Empowering Curators, Enriching Perspectives
         </h2>
-        <p className="mt-10 lg:text-4xl md:text-2xl sm:text-xl font-light xl:mt-20 text-primary">
+        <p className="mt-10 lg:text-2xl md:text-xl text-lg font-light xl:mt-16 text-primary">
           Welcome to Creatvise! Unleashing the power of curation. We empower
           curators worldwide, providing them with a robust platform to showcase
           their expertise and amplify their impact. We believe in the power of

@@ -7,14 +7,14 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Features = () => {
   return (
     <div
-      className="grid grid-cols-1 lg:grid-cols-2 items-center justify-between place-items-end"
+      className="grid grid-cols-1 lg:grid-cols-2 items-center justify-between place-items-end py-5"
       id="creatvise-zone"
     >
       <div className="p-10">
-        <h2 className="font-semibold text-primary lg:text-5xl md:text-4xl text-3xl">
+        <h2 className="font-bold text-primary xl:text-5xl lg:text-4xl md:text-3xl text-2xl">
           Unleash your creativity in your curative zone !
         </h2>
-        <p className="text-primary mt-5 font-light md:text-2xl sm:text-xl">
+        <p className="text-primary mt-5 font-light lg:text-2xl md:text-xl text-lg">
           Whether you're a creative enthusiast or a professional designer,
           Creatvise zone is the first browser based design tool that allows to
           create stunning graphics with more user friendly experience. It has
