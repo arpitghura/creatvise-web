@@ -17,7 +17,7 @@ const CallToAction = () => {
           something truly extraordinary, fostering brilliance and enabling new
           ideas to flourish.
         </p>
-        <button className="bg-primary rounded-full px-5 py-2 mt-10 cursor-pointer text-white md:text-xl xl:px-10 xl:py-5">
+        <button className="bg-primary rounded-full px-5 py-2 mt-10 cursor-pointer text-white md:text-xl xl:px-10 xl:py-5 select-none">
           Get Started
         </button>
       </div>

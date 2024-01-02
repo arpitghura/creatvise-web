@@ -24,7 +24,7 @@ const Features = () => {
           enjoyable design experience like never before.
         </p>
         <Link href="#">
-          <p className="py-3 mt-5 text-primary font-medium md:text-xl">
+          <p className="py-3 mt-5 text-primary font-medium md:text-xl select-none">
             Explore Now
             <FaArrowRightLong className="inline-block ml-2 text-primary" />
           </p>
