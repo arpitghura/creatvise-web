@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between mt-10 px-3 items-center">
-        <Newsletter />
+        <Newsletter buttonText={"notify me"}/>
         <div className="flex flex-row md:justify-evenly justify-start mt-8 md:mt-auto">
           <FaInstagram size={20} className="mr-3" />
           <FaFacebookF size={20} className="mr-3" />
