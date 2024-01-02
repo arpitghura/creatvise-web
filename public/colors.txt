@@ -1,5 +1,0 @@
-Primary: #5552B9
-Secondary: #FFFFFF
-
-NonActive Accent: #939297
-login Background: #E0E0E3

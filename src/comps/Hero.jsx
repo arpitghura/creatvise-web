@@ -3,7 +3,10 @@ import "./styles.css";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col w-full items-center bg-hero h-full md:justify-center justify-start p-10 text-white" id="hero">
+    <div
+      className="flex flex-col w-full items-center bg-hero h-full md:justify-center justify-start p-10 text-white"
+      id="hero"
+    >
       <div className="pt-16 xl:w-[75%] lg:w-[85%] w-[90%] text-center">
         <h2 className="font-bold lg:text-7xl md:text-6xl text-4xl">
           Empowering Curators, Enriching Perspectives

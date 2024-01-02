@@ -6,7 +6,10 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Features = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-between place-items-end" id="creatvise-zone">
+    <div
+      className="grid grid-cols-1 lg:grid-cols-2 items-center justify-between place-items-end"
+      id="creatvise-zone"
+    >
       <div className="p-10">
         <h2 className="font-semibold text-primary lg:text-5xl md:text-4xl text-3xl">
           Unleash your creativity in your curative zone !
